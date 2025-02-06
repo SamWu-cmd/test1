@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - VS Code Style</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+    
+
+
+    <!-- Landing Page -->
+    <section id = "home" class="background">
+        <div class="overlay"></div>
+
+        <!-- Added Video Background -->
+        <video autoplay loop muted playsinline class="background-video">
+            <source src="background-video.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+
+        <div class="content">
+            
+            
+            <!-- Typing Effect -->
+            <p class="terminal-text">
+                <span id="typing"></span><span class="cursor">|</span>
+            </p>
+            <div id="additional-text-1" class="hidden">
+                <h1>CS Uni Student Interested In</h1>
+            </div>
+
+            <div  id="additional-text-2" class="hidden">
+                <h1>Web development,</h1>
+            </div>
+            <div  id="additional-text-3" class="hidden">
+                <h1> cybersecurity, </h1>
+            </div>
+            <div  id="additional-text-4" class="hidden">
+                <h1> and admin work</h1>
+            </div>
+            
+            <div class="scroll-down hidden">
+                <a href="#about">
+                    <img src="down-arrow.png" alt="Scroll Down">
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Navigation Bar -->
+<!-- Navigation Bar -->
+<nav class="navbar">
+    <div class="nav-container">
+        <div class="logo">SAM WU</div>
+        <ul class="nav-links">
+            <li><a href="#home" class="active">HOME</a></li>
+            <li><a href="#about">ABOUT</a></li>
+            <li><a href="#portfolio">PORTFOLIO</a></li>
+            <li><a href="#skills">SKILLS</a></li>
+            <li><a href="#contact">CONTACT</a></li>
+            <li><a href="#hobbies">HOBBIES</a></li>
+        </ul>
+    </div>
+</nav>
+
+
+   <!-- About Me Section -->
+<section id="about">
+    <h2 class="section-title">About Me</h2>
+    <p class="about-description">
+        Currently, I am a university student at the University of Alberta pursuing a degree in Honors CS. (Click the cards)
+    </p>
+    
+    <!-- Card Container -->
+    <div class="cards-container">
+        <div class="card">
+            <div class="card-inner">
+                <div class="card-front">
+                    <p>Web
+                    Development-
+                    </p>
+                    <p><strong>I enjoy making online stuff like websites, for fun and friends.</strong></p>
+                </div>
+                <div class="card-back frost-knight"></div>
+            </div>
+        </div>
+    
+        <div class="card">
+            <div class="card-inner">
+                <div class="card-front">
+                    <p></p>
+                    <p><strong>Creation-</strong></p>
+                    <p>Looking forward in making some big projects and apps, with integrated AI</p>
+                </div>
+                <div class="card-back lunaras-garden"></div>
+            </div>
+        </div>
+    
+        <div class="card">
+            <div class="card-inner">
+                <div class="card-front">
+                    <p></p>
+                    <p><strong>Admin and Cybersecurity-</strong></p>
+                    <p>I like to explore online safety and do penetration testing </p>
+                </div>
+                <div class="card-back raise-the-roof"></div>
+            </div>
+        </div>
+    
+        <div class="card">
+            <div class="card-inner">
+                <div class="card-front">
+                    <p></p>
+                    <p><strong>QUESTIONS?</strong></p>
+                    <p>You can find my <a href="#">resume</a> and <a href="#">portfolio</a> here.</p>
+                </div>
+                <div class="card-back maraad"></div>
+            </div>
+        </div>
+    </div>
+    
+</section>
+
+
+
+    <!-- Portfolio Section -->
+    <section id="portfolio">
+        <h2>Portfolio</h2>
+        <div class="project-grid">
+            <div class="project">Project 1</div>
+            <div class="project">Project 2</div>
+            <div class="project">Project 3</div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>tbd</li>
+            <li>tbd</li>
+            <li>tbd</li>
+            <li>add</li>
+        </ul>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Email: add</p>
+        <p>LinkedIn: add</p>
+    </section>
+
+    <!-- Link JavaScript -->
+    <script src="script.js"></script>
+
+</body>
+</html>
+
+
+
+
+
+
+    <!-- Hobbies Section -->
+    <section id="hobbies">
+        <h2 class="section-title">Some of My Hobbies</h2>
+        <p class="section-description">Outside of exploring cs, I love badminton, reading manga, and I was an old fan of a couple mobile and steam video games that I enjoy to play with friends, most of them are old accounts now but still who knows maybe one day hit me up if u wanna play, in my spare time I also like photo editing (also each picture is clickable :0).</p>
+
+        <!-- Image Gallery (4 columns, 3 images per column) -->
+        <div class="gallery">
+            
+            <div class="column">
+                <div class="gallery-item"><img src="hobby4.jpg" alt="Painting"><p>Mobile Legends, Granger - "Your death is music to my ears</p></div>
+                <div class="gallery-item"><img src="hobby5.jpg" alt="Music"><p>Clash of Clans, Classic</p></div>
+                <div class="gallery-item"><img src="hobby6.jpg" alt="Writing"><p>Pubg Mobile, pew pew</p></div>
+            </div>
+            <div class="column">
+                <div class="gallery-item"><img src="hobby7.jpg" alt="Gaming"><p>Crossifre, old days</p></div>
+                <div class="gallery-item"><img src="hobby8.jpg" alt="Coding"><p>Call of Duty Mobile, 0: </p></div>
+                <div class="gallery-item"><img src="hobby9.jpg" alt="3D Modeling"><p>My edited collection 1, Waves</p></div>
+            </div>
+            <div class="column">
+                <div class="gallery-item"><img src="hobby10.jpg" alt="Swimming"><p>My edited collection 2, Glory</p></div>
+                <div class="gallery-item"><img src="hobby11.jpg" alt="Yoga"><p>My edited collection 3, Blossom</p></div>
+                <div class="gallery-item"><img src="hobby12.jpg" alt="Running"><p>My edited collection 4, Fireplace</p></div>
+            </div>
+            <div class="column">
+                <div class="gallery-item"><img src="hobby13.jpg" alt="Fishing"><p>My edited collection 5, Selfless </p></div>
+                <div class="gallery-item"><img src="hobby14.jpg" alt="Cooking"><p>My edited collection 6, Boy</p></div>
+                <div class="gallery-item"><img src="hobby15.jpg" alt="Reading"><p>My edited collection 7, Fear</p></div>
+            </div>
+            <div class="column">
+                <div class="gallery-item"><img src="hobby1.jpg" alt="Hobby1"><p>Honor of Kings, for honor</p></div>
+                <div class="gallery-item"><img src="hobby2.jpg" alt="Hobby2"><p>王者榮耀, 吕布- "迎接你们的王" </p></div>
+                <div class="gallery-item"><img src="hobby3.jpg" alt="Hobby3"><p>Wild Rift, only a master still more to learn</p></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Fullscreen Image Viewer -->
+    <div id="fullscreen-container" class="fullscreen-container">
+        <span class="close-btn" onclick="closeFullscreen()">&times;</span>
+        <div class="fullscreen-content">
+            <img id="fullscreen-img" src="" alt="Expanded Image">
+            <p id="fullscreen-caption" class="fullscreen-caption"></p> <!-- Caption added -->
+        </div>
+    </div>
+
+    <!-- Link JavaScript -->
+    <script src="script.js"></script>       
+
+</body>
+</html>
+
+
+   
+
+</body>
+</html>
+
+
+
